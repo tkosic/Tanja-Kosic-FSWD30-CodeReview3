@@ -1,0 +1,165 @@
+* { margin: 0 auto;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+#wrap {
+	width: 80%;
+}
+
+header {
+	display: flex;
+	height: 120px;
+	background-color: #F4F4F4;
+}
+
+header h1 {
+	padding-top: 30px;
+	color: #E78244;
+	font-size: 45px;
+}
+
+header span {
+	font-weight: lighter;
+}
+
+/*Upper Section*/
+
+#upper {
+	display: flex;
+	background-color: #38A18C;
+	height: 80px;
+}
+
+#upper h1 {
+	font-size: 50px;
+	padding-top: 10px;
+	color: #2D4653;
+}
+
+/*Main Section*/
+
+#main {
+	display: flex;
+	background-color: #38A18C;
+}
+
+.flex {
+	padding-top: 20px;
+	text-align: center;
+	flex-basis: 30%;
+}
+
+div h3 {
+	color: #E1ECE9;
+	font-size: 25px;
+}
+
+div h3:hover {
+	color: #2D4653;
+	cursor: pointer;
+	font-size: 30px;
+}
+
+#bottom {
+	display: flex;
+	height: 130px;
+	background-color: #F4F4F4;
+}
+
+form {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#bottom input {
+	height: 50px;
+	width: 200px;
+	font-weight: bold;
+	font-size: 25px;
+	color: #2F4653;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 6px 9px 64px 0px rgba(145,142,145,1);
+}
+
+#bottom input:hover {
+	color: #E78244;
+	cursor: pointer;
+}
+
+footer {
+	height: 80px;
+	background-color: #38A18C;
+	text-align: center;
+}
+
+footer p {
+	padding-top: 30px;
+	font-size: 20px;
+	color: #2F4653; 
+	font-weight: bold;
+}
+
+/*index1.html*/
+
+#index1 {
+	background-color: #406A80;
+	color: #E1ECE9;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#index1 article {
+	padding-top: 50px;
+	width: 50%;
+}
+
+.row input {
+	border-radius: 5px;
+	height: 45px;
+	width: 200px;
+	background-color: #E1ECE9;
+	font-size: 25px;
+	padding-left: 5px;
+	color: #2F4653; 
+	flex: 2;
+}
+
+.row label {
+	flex: 3;
+}
+
+.row {
+	display: flex;
+	padding-top: 30px;
+}
+
+#last button {
+	width: 180px;
+	height: 30px;
+	border-radius: 5px;
+	color: #2F4653;
+	font-size: 20px;
+	font-weight: bold;
+
+ }
+
+ #last button:hover {
+ 	color: #E78244;
+	cursor: pointer;
+ }
+
+#last {
+ 	padding-bottom: 20px;
+ }
+
+#price {
+	font-size: 25px;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	color: grey;
+	text-align: center;
+}
+
+ 
+
